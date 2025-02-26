@@ -1,2 +1,57 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Unity ve Genel Binary Dosyalar
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.mp4 binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.fbx binary
+*.ttf binary
+*.otf binary
+*.dll binary
+*.exe binary
+*.so binary
+*.a binary
+*.lib binary
+*.zip binary
+*.rar binary
+*.7z binary
+*.tar binary
+*.gz binary
+*.tgz binary
+*.bz2 binary
+*.xz binary
+*.bin binary
+*.unitypackage binary
+
+# Unity Metafile Ayarları (Çakışmaları Önler)
+*.meta text
+
+# Unity Sahne Dosyaları
+*.unity merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.asset merge=unityyamlmerge
+
+# Kod Dosyaları (Text Olarak İşlenmeli)
+*.cs text
+*.js text
+*.shader text
+*.xml text
+*.json text
+*.yaml text
+*.yml text
+*.txt text
+*.md text
+
+# Windows ve Mac Satır Sonu Karakterlerini Ayarlama
+*.cs eol=lf
+*.js eol=lf
+*.shader eol=lf
+*.xml eol=lf
+*.json eol=lf
+*.yaml eol=lf
+*.yml eol=lf
+*.txt eol=lf
+*.md eol=lf
